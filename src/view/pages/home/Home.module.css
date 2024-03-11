@@ -13,5 +13,8 @@
 }
 .homeContainerItem:hover{
     background-color: grey;
-    transition: ease 0.5s;
+    transition: ease-in 0.5s;
+}
+.homeContainerItem:active{
+    background-color: red;
 }
