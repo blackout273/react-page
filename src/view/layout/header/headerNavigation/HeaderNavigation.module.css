@@ -1,0 +1,27 @@
+.headerNavigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.headerNavigationItems {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.headerNavigationTitle{
+    text-decoration: none;
+    color: white;
+}
+.headerNavigationLink {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin:12px;
+}
+.headerNavigationLink:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: ease 0.5s;
+}
