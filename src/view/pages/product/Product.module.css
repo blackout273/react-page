@@ -1,11 +1,11 @@
-.productContainer {
+.mainContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 5rem;
 }
 
-.containerFormLinks {
+.formMainContainer {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -14,12 +14,12 @@
     margin-top: 5rem;
 }
 
-.containerFormLinks input {
+.formMainContainer input {
     border-radius: 10px;
     padding: .2rem;
 }
 
-.productContainerButton {
+.formMainContainerButton {
     border: none;
     background-color: green;
     color: white;
@@ -28,39 +28,39 @@
     border-bottom-right-radius: 10px;
 }
 
-.containerResponseForm {
+.secundaryContainer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-.itemResponseForm {
-    text-decoration: none;
-    margin: 1rem;
+.responseSecundaryContainer {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem;
     gap: 10px;
-    min-width: 50%;
-    justify-items: center;
-    align-items: center;
 }
 
-.itemResponseForm:hover {
+.linkSecundaryContainer {
+    text-decoration: none;
+}
+
+.linkSecundaryContainer:hover {
     color: purple;
     text-shadow: 1px 1px 12px;
 
 }
 
-.actionBar {
+.actionBarSecundaryContainer {
     display: flex;
     flex-direction: row;
     gap: 10px;
 
 }
 
-.actionBar button {
+.actionBarSecundaryContainer button {
     border: 1px solid black;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -70,7 +70,7 @@
 
 }
 
-.actionBar button:hover {
+.actionBarSecundaryContainer button:hover {
     transform: translateY(-10%);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
     animation: btnAnimation .2s ease-in-out;
