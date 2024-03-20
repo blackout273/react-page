@@ -1,0 +1,95 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.formMainContainer {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.formMainContainer input {
+    border-radius: 10px;
+    padding: .2rem;
+}
+
+.formMainContainerButton {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.secundaryContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.responseSecundaryContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 10px;
+}
+
+.linkSecundaryContainer {
+    text-decoration: none;
+}
+
+.linkSecundaryContainer:hover {
+    color: purple;
+    text-shadow: 1px 1px 12px;
+
+}
+
+.actionBarSecundaryContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.actionBarSecundaryContainer button {
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.actionBarSecundaryContainer button:hover {
+    transform: translateY(-10%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    animation: btnAnimation .2s ease-in-out;
+}
+
+@keyframes btnAnimation {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
+}
+
+.buttonRemoveItem {
+    background-color: violet;
+}
+
+.buttonEditItem {
+    background-color: blueviolet
+}

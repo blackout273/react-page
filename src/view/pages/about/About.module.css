@@ -1,6 +1,9 @@
-.articleContainer{
-text-align: center;
+.articleContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.articleContainer a {
-    text-decoration-style: none;
+
+.sectionContainer a {
+    text-decoration: none;
 }

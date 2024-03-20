@@ -1,9 +1,1 @@
-
-const Product = () =>{
-    return(
-        <>
-        Product
-        </>
-    )
-    }
-    export default Product
+export { default } from "./product";
