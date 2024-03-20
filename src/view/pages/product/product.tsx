@@ -1,10 +1,10 @@
 import { ReactNode, ReactElement } from "react";
-import style from "./product.module.css";
+import style from "./products.module.css";
 import { useProduct } from "./useProduct";
 import { ProductController } from "./product.types";
 
 const Product = (): ReactElement => {
-    //Component logic data
+    // Component logic data
     const {
         estado,
         saveRef,
