@@ -19,7 +19,6 @@ const Product = (): ReactElement => {
                 className={style.responseSecundaryContainer}
             >
                 <a
-                    onMouseOver={() => window.alert(value.link)}
                     className={style.linkSecundaryContainer}
                     href={value.link}
                     target="_blank"
