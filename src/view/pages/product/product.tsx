@@ -4,7 +4,7 @@ import { useProduct } from "./useProduct";
 import { ProductController } from "./product.types";
 
 const Product = (): ReactElement => {
-    // Component logic data
+    //Component logic data
     const {
         estado,
         saveRef,
